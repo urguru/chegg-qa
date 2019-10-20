@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EvaluateString",
+            "request": "launch",
+            "mainClass": "EvaluateString"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Recursive_merge",
+            "request": "launch",
+            "mainClass": "Recursive_merge"
+        }
+    ]
+}

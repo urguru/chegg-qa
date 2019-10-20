@@ -1,0 +1,39 @@
+#container {
+    background-color: #FFC425;
+    height: 800px;
+    width: 100%;
+    position: absolute;
+}
+
+#header {
+    margin: 10px 0px 0px 50px;
+    height: 300px;
+    background-color: #231F20;
+}
+
+#image {
+    padding-top: 10px;
+    padding-left: 400px;
+}
+
+#title {
+    padding-top: 0px;
+    padding-left: 100px;
+}
+
+#left-nav {
+    background-color: lightgreen;
+    width: 400px;
+    height: 400px;
+    margin-top: 0px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+#right-nav {
+    background-color: white;
+    width: 700px;
+    height: 400px;
+    margin-top: 0px;
+    margin-left: 450px;
+}

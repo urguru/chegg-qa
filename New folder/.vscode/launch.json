@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BarChartScoreboard",
+            "request": "launch",
+            "mainClass": "BarChartScoreboard"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Arrays",
+            "request": "launch",
+            "mainClass": "Arrays"
+        }
+    ]
+}

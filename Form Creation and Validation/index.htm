@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+        <div>
+        <p class="" id="user-hide">Only letters allowed in this field</p>
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="Enter your username" id="username">
+        </div>
+        <div>
+        <p class="" id="passwd-hide">Atleast one lowercase and uppercase letter must be present</p>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password">
+        </div>
+        <div>
+        <p class="" id="id-hide">Student ID number should contain only 9 numbers</p>
+        <label for="student-id">Student ID Number</label>
+        <input type="number" name="student-id" id="student-id">
+        </div>
+        <div>
+        <label for="message">Message</label>
+        </div>
+        <div>
+        <textarea name="message" id="message" cols="30" placeholder="Enter your message here" rows="10"></textarea><span id="word-count">25</span> <span>words remaining</span>
+        </div>
+        <button type="button" id="btn">Submit</button>
+    </form>
+    <h1 id="result"></h1>
+    <script src="./app.js"></script>
+</body>
+</html>

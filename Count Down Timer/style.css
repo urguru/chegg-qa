@@ -1,0 +1,17 @@
+body{
+    color: white;
+    background: black;
+    text-align: center;
+}
+table{
+    margin:20px auto;
+    padding: 20px;
+}
+td{
+    padding: 20px;
+    font-size: 2rem;
+}
+h1{
+    margin:30px 20px;
+    padding: 30px;
+}

@@ -1,0 +1,21 @@
+.desktop-menu {
+  display: none;
+  background: red;
+  width: 100vw;
+  height: 100vh;
+}
+.mobile_menu {
+  display: bloc;
+  background: blue;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media screen and (min-width: 576px) {
+  .desktop-menu {
+    display: block;
+  }
+  .mobile_menu {
+    display: none;
+  }
+}

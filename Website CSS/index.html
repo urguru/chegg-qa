@@ -1,0 +1,161 @@
+<html>
+  <head>
+    <title>Boxes Example</title>
+    <style>
+      body {
+        background-color: c0c0c0;
+      }
+      div.box1 {
+        background-color: black;
+        color: white;
+        border-style: groove;
+        border-color: blue;
+        margin: 20px;
+        padding: 20px;
+        height: 300px;
+        width: 250px;
+        position: absolute;
+        top: 30px;
+        left: 500px;
+      }
+      div.containerBox {
+        background-color: #104040;
+        color: white;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        padding: 10px;
+        position: relative;
+        top: -7px;
+        left: -7px;
+        height: auto;
+        width: auto;
+      }
+      div.shadowBox {
+        background-color: #909090;
+        position: relative;
+        top: +7px;
+        left: +7px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        height: 300px;
+        width: 250px;
+      }
+      .floating-box {
+        float: left;
+        width: 150px;
+        height: 75px;
+        margin: 10px;
+        border: 3px solid #73ad21;
+      }
+      .after-box {
+        clear: left;
+        border: 3px solid red;
+      }
+      #custom {
+        border: 10px solid #000;
+        border-radius: 10px 40px 40px 10px;
+        width: 200px;
+        height: 100px;
+        background-color: #ccc;
+      }
+      /*Style for inner shadow*/
+      .innerShadow {
+        border: 1px;
+        width: 150px;
+        height: 150px;
+        box-shadow: inset 0px 0px 20px 10px maroon;
+        float: left;
+      }
+      .borderImage {
+        height: 100px;
+        width: 300px;
+        background-color: palegreen;
+        border: 15px solid maroon;
+        border-radius: 25px;
+        -moz-border-image: url(border.png) 30 30 round;
+        -o-border-image: url(border.png) 30 30 round;
+        -webkit-border-image: url(border.png) 30 30 round;
+        border-image: url(images.jpg);
+        border-image-slice: 20;
+        border-image-repeat: repeat;
+        float: right;
+      }
+      /*style for transformed div*/
+      .transform {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        border: 1px solid black;
+        transform: translate(50px, 50px) rotateY(220deg) scale(1, 2)
+          skew(60deg, 50deg);
+        float: left;
+      }
+      /*Style for liner gradient*/
+      .linearGradient {
+        height: 100px;
+        width: 40%;
+        color: white;
+        text-align: right;
+        float: left;
+        background: linear-gradient(180deg, green, red);
+        /* Standard syntax (must be last) */
+      }
+      /*style for radial gradient*/
+      .radialGradient {
+        height: 150px;
+        width: 200px;
+        background: radial-gradient(black, purple, orange);
+        /* Standard syntax (must be last) */
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Little Boxes</h1>
+    <div class="box1">
+      Little boxes on the hillside, Little boxes made of ticky tacky, Little
+      boxes on the hillside, Little boxes all the same. There's a green one and
+      a pink one And a blue one and a yellow one, And they're all made out of
+      ticky tacky And they all look just the same
+    </div>
+    <div class="shadowBox" style="width:400; height:auto;">
+      <div
+        class="containerBox"
+        style="width:auto; height:auto;background-color:#104040"
+      >
+        <ul>
+          <li>CSIS1430 HTML</li>
+          <li>CSIS1430 HTML</li>
+          <li>CSIS1430 HTML</li>
+          <li>CSIS1430 HTML</li>
+          <li>CSIS1430 HTML</li>
+        </ul>
+      </div>
+    </div>
+    <h2>FLOATING BOXES</h2>
+    <div class="floating-box">Floating box</div>
+    <div class="floating-box">Floating box</div>
+    <div class="floating-box">Floating box</div>
+    <div class="floating-box">Floating box</div>
+    <div class="floating-box">Floating box</div>
+    <div class="floating-box">Floating box</div>
+    <div class="floating-box">Floating box</div>
+    <div class="floating-box">Floating box</div>
+    <div class="after-box">Another box, after the floating boxes...</div>
+    <h2>Custom Boxes</h2>
+    <div class="after-box" id="custom">A custom box...</div>
+    <h2>Inner Shadow box</h2>
+    <div class="innerShadow">This div has Inner shadow</div>
+    <h2>Border Image</h2>
+    <div class="borderImage">Div with border Image</div>
+    <h2>Transform div</h2>
+    <div class="transform">This is transformed div</div>
+    <br />
+    <br />
+    <h2>linear Gradient</h2>
+    <div class="linearGradient">linear Gradient</div>
+    <h2>Radial Gradient</h2>
+    <div class="radialGradient">Radial Gradient</div>
+  </body>
+</html>

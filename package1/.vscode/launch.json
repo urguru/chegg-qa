@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PizzaOrder_Demo",
+            "request": "launch",
+            "mainClass": "PizzaOrder_Demo"
+        }
+    ]
+}

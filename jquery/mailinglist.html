@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        <!-- When the DOM content is completely loaded -->
+        $(document).ready(function () {
+            <!-- When the submit button is clicked we check for conditions -->
+            $('#submit-btn').click(function(){
+                var flag=1;
+                <!-- Individually we are checking all the input fields that they are not empty -->
+                if($('#email').val().length==0){
+                    
+                    $('#email').css("color","red");
+                    $('#email').val("This field is required");
+                    $('#email').keyup(function(){
+                        $('#email').css("color", "black");
+                    })
+                    flag=0;
+                }
+                if ($('#re-email').val().length == 0) {
+                    $('#re-email').css("color", "red");
+                    $('#re-email').val("This field is required");
+                    $('#re-email').keyup(function () {
+                        $('#re-email').css("color", "black");
+                    })
+                    flag = 0;
+                }
+                if ($('#name').val().length == 0) {
+                    $('#name').css("color", "red");
+                    $('#name').val("This field is required");
+                    $('#name').keyup(function () {
+                        $('#name').css("color", "black");
+                    })
+                    flag = 0;
+                }
+                <!-- We check if both the email and the second email are same -->
+                if($('#email').val()!=$('#re-email').val()){
+                    $('#re-email').css("color", "red");
+                    $('#re-email').val("This entry must equal first entry");
+                    flag = 0;
+                }
+                <!-- If everything is perfect the we output the alert -->
+                if(flag==1 && $('#name').val()!="This field is required" && $('#name').val().length!=0)
+                {
+                    $('*').val("");
+                    alert("Congratulations!\nWelcome to our email list.")
+                }
+            })
+        });
+    </script>
+    <title>Email Form</title>  
+</head>
+<body>
+    <form action="">
+        <label for="email">Email Address: </label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="re-email">Re-enter Email Address: </label>
+        <input type="email" name="re-email" id="re-email">
+        <br>
+        <label for="name">First Name:</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <button id="submit-btn" type="button">Join Our List</button>
+    </form>
+</body>
+</html>

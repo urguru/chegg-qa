@@ -1,0 +1,71 @@
+getline() function and character array
+Prerequisite: getline(string) in C++
+In C++, stream classes support line-oriented functions, getline() and write() to perform input and output functions respectively. getline() function reads whole line of text that ends with new line or until the maximum limit is reached. getline() is the member function of istream class and has the syntax:
+// (buffer, stream_size, delimiter)
+istream& getline(char*, int size, char='\n')
+// The delimiter character is considered as '\n'
+istream& getline(char*, int size)
+The function does the following operations:
+1. Extracts character up to the delimiter.
+2. Stores the characters in the buffer.
+3. Maximum number of characters extracted is size – 1.
+Note that the terminator(or delimiter) character can be any character (like ‘ ‘, ‘, ‘ or any special character, etc.). The terminator character is read but not saved into a buffer, instead it is replaced by the null character.
+
+filter_none
+edit
+play_arrow
+
+brightness_4
+// C++ program to show the getline() with  
+// character array 
+#include <iostream> 
+using namespace std; 
+  
+int main() 
+{ 
+    char str[20]; 
+    cout << "Enter Your Name::"; 
+  
+    // see the use of getline() with array 
+    // str also replace the above statement 
+    // by cin >> str and see the difference 
+    // in output 
+    cin.getline(str, 20); 
+  
+    cout << "\nYour Name is:: " << str; 
+    return 0; 
+} 
+Input :
+
+Aditya Rakhecha 
+Output :
+
+ Your Name is:: Aditya Rakhecha
+In the above program, the statement cin.getline(str, 20) reads a string until it encounters the new line character or maximum number of characters (here 20). Try the function with different limits and see the output.
+
+
+
+Recommended Posts:
+getline (string) in C++
+How to use getline() in C++ when there are blank lines in input?
+Convert character array to string in C++
+Check input character is alphabet, digit or special character
+array get() function in C++ STL
+array at() function in C++ STL
+How to return a local array from a C/C++ function?
+Declare a C/C++ function returning pointer to array of integer pointers
+Character arithmetic in C and C++
+Character Classification in C++ : cctype
+Type difference of character literals in C and C++
+Data type of character constants in C and C++
+How to convert a single character to string in C++?
+Change/add only one character and print '*' exactly 20 times
+Character replacement after removing duplicates from a string
+
+AdityaRakhecha
+Check out this Author's contributed articles.
+If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+Please Improve this article if you find anything incorrect by clicking on the "Improve Article" button below.
+
+

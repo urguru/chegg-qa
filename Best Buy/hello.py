@@ -1,0 +1,1 @@
+choice=int(input("Enter 1 to input the date in ISO Format and 2 to input the date in Business format"))

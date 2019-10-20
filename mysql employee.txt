@@ -1,0 +1,15 @@
+delimiter //
+create procedure emp_dept_no(IN Dno int)
+begin
+select count(*) from EMPLOYEE e
+where e.Dno=Dno;
+end //
+delimiter ;
+
+delimiter //
+create procedure dept_project_count(IN Dname varchar(20),OUT no_of_projects)
+begin
+select count(*) INTO no_of_projects from DEPARTMENT d,PROJECT p 
+where d.Dnumber=p.Dnum and d.Dname=Dname;
+end //
+delimiter;
