@@ -1,0 +1,212 @@
+1. Adithya 200 200
+2. Guruprasad 200 400
+3. Nithin Chakrqvarthi 50 450
+4. Abhishek Patil 50 500
+5. Harshit Gouda CV 1 501
+6. Shivganesh P 50 551
+7. Gagangnk C N 100 651
+8. Akash Gouda 20 671
+9. Nischay D 25 696
+10. Pooja Ekbote 50 746
+11. Krishna Kushal 20 766
+12. Darshan V Methi 50 816
+13. Akshita C R 100 916
+14. Nehranjali N R 20 936
+15. Vijay Shanmugam 10 946
+16. Prashanth N 100 1046
+17. Rashi Padroo 100 1146
+18. Vineet J Kavil 50 1196
+19. Shrikar 42 1238
+20. Utkarsh Mishra 100 1338
+21. Abhinaya R 50 1388
+22. Shivamurtayya B Hiremath 50 1438
+23. Amritha Raj 50 1488
+24. Syeeda Sumeera Amreen 200 1688
+25. Anjali Umesh 50 1738
+26. Sathvik S 100 1838
+27. Abhi MJ 100 1938
+28. Akash Shetty 30 1968
+29. Kethan Sahu 50 2018
+30. Rakshit Das 57 2075
+31. Naveen G S 100 2175
+32. Monisha Gowda 150 2325
+33. Shivakumar 50 2375
+34. Pruthvi 100 2475
+35. Anagha 50 2525
+36. Manjesh Gowda 70 2595
+37. Tanushree Pooja 100 2695
+38. Anjali Umesh 500 3195
+39. Dharithri M 50 3245
+40. Prajeeth Satish 50 3295
+41. Jyo D 1000 4295
+42. S Chandrashekar Shashtry 50 4345
+43. Adithya K Rao 1000 5345
+44. Bharath Rao 50 5395
+45. Venu Dayanand 50 5445
+46. Annangi Ramesh Babu 200 5645
+47. Tharun Bophaiiah 100 5745
+48. Rohan Harish 100 5845
+49. Jayanth K 50 5895
+50. Mahima J 100 5995
+51. Gururaj Karbasappa Sulebhavi 100 6095
+52. Sahil Gori 50 6145
+53. Pravesh Shetty 200 6345
+54. Keertana M 100 6445
+55. Anusha Prakash Naik 20 6465
+56. S Vinayaka Bhatta 200 6665
+57. Chaithra Varsha 1000 7665
+58. Bhagyashree S P 50 7715
+59. Nakettinavar Vinayak 100 7815
+60. Shreehari Venkateshwar 200 8015
+61. Kaushik K 1000 9015
+62. Bharath Shaherwale 50 9065
+63. Eshwar Ravichandran 100 9165
+64. Sandeep Kulkarni 20 9185
+65. Pannaga G R 100 9285
+66. Prateek C 50 9335
+67. Sathvik S Bandar 50 9385
+68. Ravikumar N R 105 9490
+69. Ravi Rayappa Tavgad 10 9500
+70. Sharanprasad Rajesh 50 9550
+71. Abhilash Hegde 500 10050
+72. Rakshita R 100 10150
+73. Chaitanya C 100 10250
+74. Shaila S Rao 200 10450
+75. Keshav Mohan Kumar 100 10550
+76. Varshini C 100 10650
+77. Anvita Murty 80 10730
+78. Pratham Kundur 100 10830
+79. Apporva S Y 50 10880
+80. Harshita 50 10930
+81. Siddarth Aggarwal 50 10980
+82. Shashank Wagle K 100 11080
+83. Sravani Gajula 100 11180
+84. Kushal Shankar 100 11280
+85. Vishruth M 1000 12280
+86. Ravi Bhaskar 50 12330
+87. Akash Vijay 200 12530
+88. Yashashwani K A 100 12630
+89. Harshith Nimmagdda 500 13130
+90. Shreejith Nair 50 13180
+91. Pranav M Biradar 100 13280
+92. Rakesh Sharma 200 13480
+93. Rakshita 50 13530
+94. Shashank Hiranyan 100 13630
+95. Manas Sharma 200 13830
+96. Sharan Jewargi 50 13880
+97. Chintalapudi Keertana 200 14080
+98. Yashas U K 30 14110
+99. Basavaraj Basavaraj 100 14210
+100. Hrithwik Bharadwaj 100 14310
+101. Anushree C A 300 14610
+102. D P Rani KR Satyanarayana 50 14660
+103. Harish D H 50 14710
+104. Abhishek Kalhal 100 14810
+105. Amruta Satish 200 15010
+106. Bhumika P 50 15060
+107. Lohith Chanaiah 250 15310
+108. Kshama Hebbar 101 15411
+109. Deepanjali Kajagar 100 15511
+110. Shraddha Bhat 100 15611
+111. Shiva Kumar C 100 15711
+112. Blaze P 300 16011
+113. Rachana Shetty 100 16111
+114. Kaushik Kulkarni 100 16211
+115. Amrutha Y M 100 16311
+116. Girish M G 300 16611
+117. Prateeksha Dhananjay 100 16711
+118. K Sujitha 80 16791
+119. Rahul M S 100 16891
+120. Vishrut M 2000 18891
+121. Kiran P 10 18901
+122. Amruta Hegde 100 19001
+123. Lakshmi Reddy 200 19201
+124. Mukund Acharya 50 19251
+125. Yashwant Gouda D A 400 19651
+126. Pradeep S 50 19701
+127. Sandeep G 100 19801
+128. Prajwal B S 50 19851
+129. Harish 100 19951
+130. Basavaraj P 100 20051
+131. Sushma H V 200 20251
+132. Nishanth H D 300 20551
+133. DT Shiva Shankar Swamy 100 20651
+134. Kundan Vidyarthi 50 20701
+135. Pooja R 100 20801
+136. Vivekananda Siddanna Hubbi 100 20901
+137. Faheem 250 21151
+138. Rekha K 100 21251
+139. Bhuvika Gouda 100 21351
+140. Ekta Sharma 100 21451
+141. Mrudul Katti 100 21551
+142. Adi Goudru 33 21584
+143. Nitesh N 50 21634
+144. Hamsitha U K 100 21734
+145. Kajal Jain 100 21834
+146. Abhijna Hosad 100 21934
+147. Suresh P 1000 22934
+148. Lokesh Kumar Sundarraj 500 23434
+149. Spurthi Shetty 29 23463
+150. Vishal M Bhaskar 100 23563
+151. Abhishek Santosh Kumar Patil 100 23663
+152. Pratap A Naik 50 23713
+153. DS Balachandra 100 23813
+154. Aakarsh S 100 23913
+155. Shashank Mishra 200 24113
+156. Tanmesh Mishra 100 24213
+157. Shreyas Prabhu 500 24713
+158. Shamantha Krishna A G 100 24813
+159. Vijith K 100 24913
+160. Tombstone 400 25313
+161. Manjunath Mendole 150 25463
+162. Snehal Urs 100 25563
+163. Tejas Raghuveer 49 25612
+164. Ananya B P 100 25712
+165. Saipavan B M 45 25757
+166. Dheemanth G 200 25957
+167. Malavika Prakash 50 26007
+168. Deeksha M 100 26107
+169. Nimisha 100 26207
+170. Shwetank Kumar 200  26407
+171. Eon Sriram 100 26507
+172. Mehul Chouhan 500 27007
+173. Vishwanath B M 50 27057
+174. Kshitij Jain 50 27107
+175. E Tarun Vikas 200 27307
+176. Chandana V 200 27507
+177. Nikhil Kumar 50 27557
+178. Rahul Kaushik 200 27757
+179. Ayushi Mishra 100 27857
+180. Darshan R 500 28357
+181. Nischay D 200 28557
+182. Deshna Thangamma 50 28607
+183. Manya Harish 300 28907
+184. N Anjali 100 29007
+185. Vivek Kyshap S 100 29107
+186. B V Sourabh 100 29207
+187. Rajesh Singh 100 29307
+188. Deeksha Janardhan 100 29407
+189. Pradhyumna K 300 29707
+190. Manjunath Ashok 40 29747
+191. Subhash Shiva Raj 50 29797
+192. Shashwat Medha 30 29827
+193. Abhijeet 100 29927
+194. D S Balachandra 200 30127
+195. Ganesh Basavaraj Badaradinni 200 30327
+196. Prafulla Arvind 1000 31327
+197. Ashish Jagdeesh 50 31377
+198. Yashaswini Shetty 150 31527
+199. Mourya Manohar 200 31727
+200. Ajith B 1000 32727
+201. Sowmya Shree 100 32827
+202. Vidya K Gouda 100 32927
+203. Shankar S 2500 35427
+204. Tanmay Kumar 100 35527
+205. Sandhya Kyama 30 35557
+206. Suma2078 1000 36557
+207. K Sujita 80 36637
+208. Tejaswini M R 100 36737
+209. Nikhil 200 36937
+210. Anonymous 2000 38937
+211. Amulya Kattemani 50 38987
+212. Papu S raju 80 39067

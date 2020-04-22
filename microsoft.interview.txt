@@ -1,0 +1,31 @@
+s1 
+maxstack
+
+int returnmax()
+{
+	
+	return maxstack.top();
+}
+	
+
+void push(int val)
+{
+	s1.push(val);
+	if(maxstack.top()<val)
+	{
+		maxstack.push(val);
+	}
+}
+void pop()
+{
+	int var;
+	if(!s1.empty())
+	{
+		var=s1.top();
+		if(maxstack.top()==var)
+		{
+			maxstack.pop()
+		}
+		s1.pop()
+	}
+}

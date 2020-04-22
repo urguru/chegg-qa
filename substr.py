@@ -1,0 +1,7 @@
+a=input("Enter a string")
+b=input("Enter the substring")
+c=input("Enter the new string")
+x=a.count(b)
+a=a.replace(b,c)
+a=a.replace(c,b,x-1)
+print(a)

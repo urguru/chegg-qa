@@ -1,0 +1,16 @@
+So in the first view creation where we check if the cID of the exteranl query is equal to the internal subquery and when it is true we count all the distinct pID values and then we join both the tables using cID as the primary key
+
+
+1.
+create view productPurchaseCount as
+select c.cID as "Customer ID",c.cName as "Customer Name",count(select distinct pID from purchase where cID=c.cID) as count_prod
+from customer c,purchase p
+where c.cID=p.cID;
+
+
+In the second we just find all the c_ids which have unique products more than or equal to 10 and then we find to which city that person belongs to and then we take all the distinct cities and display them 
+
+2.
+select distinct city 
+from customer c 
+where c.cID in (select "Customer ID" from productPurchaseCount where count_prod>=10);

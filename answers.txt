@@ -1,0 +1,38 @@
+12.
+
+p++
+
+Here p is a pointer to an integer
+And the pointers are always of the size of an integer
+So the statement increments the value of p by 2 since the size of an integer is 2
+
+Answer is B 
+
+13.
+
+An array created during the execution of a program is called a dynamic array
+
+So the correct option is d. Dynamic
+
+
+14. Having a destructor avoids the memory leak when we have pointer variables inn our class
+
+So the correct option is option d. memory
+
+15.
+
+The correct answer is option d. adding an overloaded = operator
+
+The shallow copy happens by default so if we want the deep copy to happen then in in overloaded = operation we have to create a new memory space for the pointer and then store the values
+
+16.
+The correct answer is option d. All the above
+
+A copy constructor gets automatically executed when 
+1. An object is decalred and initialised by using the value of another object
+2.When an object is passed by value as a parameter
+3.When the return value of a function is an object
+
+17.When we make a deep copy what happens is that we allocate new memory to the pointer that we are copying the values into so the pointer will have its own memory space and a different address.Both the pointers will not be pointing to the same address
+
+So the correct answer will be ................each pointer refers to a different address

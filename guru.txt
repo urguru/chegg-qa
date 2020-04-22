@@ -1,0 +1,14 @@
+The ocurences of each letter in the given file are as follows
+a : 4b : 0c : 0d : 2e : 4f : 0g : 2h : 0i : 0j : 0k : 0l : 0m : 0n : 0o : 2p : 0q : 0r : 6s : 2t : 2u : 0v : 0w : 2x : 0y : 0z : 0
+
+The frequency percentage of a in the file is 15.384615384615385
+The frequency percentage of b in the file is 0.0
+The frequency percentage of c in the file is 0.0
+The frequency percentage of d in the file is 7.6923076923076925
+The frequency percentage of e in the file is 15.384615384615385
+ The number of words in the file is 6
+
+The ocurences of each word in the given file are as follows
+words : 2are : 2great : 2
+
+The total number of characters in the file are : 26 

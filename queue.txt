@@ -1,0 +1,63 @@
+NULL
+enqueue("Adrian Peterson");
+0- Adrian Peterson
+dequeue();
+NULL
+enqueue("Devonta Freeman");
+0-Devonta Freeman
+enqueue("Chris Johnson");
+0-Devonta Freeman
+1-Chris Johnson
+dequeue();
+0-Chris Johnson
+dequeue();
+NULL
+enqueue("Todd Gurley");
+0-Todd Gurley
+enqueue("Doug Martin");
+0-Todd Gurley
+1-Doug Martin
+enqueue("Latavius Murray");
+0-Todd Gurley
+1-Doug Martin
+2-Latavius Murray
+enqueue("Frank Gore");
+0-Todd Gurley
+1-Doug Martin
+2-Latavius Murray
+3-Frannk Gore
+dequeue();
+0-Doug Martin
+1-Latavius Murray
+2-Frannk Gore
+enqueue("Mark Ingram");
+0-Doug Martin
+1-Latavius Murray
+2-Frannk Gore
+3-Mark Ingram
+dequeue();
+0-Latavius Murray
+1-Frannk Gore
+2-Mark Ingram
+enqueue("Jonathan Stewart");
+0-Latavius Murray
+1-Frannk Gore
+2-Mark Ingram
+3-Jonathan Stewart
+enqueue("Justin Forsett");
+0-Latavius Murray
+1-Frannk Gore
+2-Mark Ingram
+3-Jonathan Stewart
+4-Justin Forsett
+dequeue();
+0-Frannk Gore
+1-Mark Ingram
+2-Jonathan Stewart
+3-Justin Forsett
+enqueue("Le'Veon Bell");
+0-Frannk Gore
+1-Mark Ingram
+2-Jonathan Stewart
+3-Justin Forsett
+4-Le'Veon Bell

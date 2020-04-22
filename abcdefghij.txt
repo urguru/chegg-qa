@@ -1,0 +1,10 @@
+Guruprasad
+
+Today's date : Mon Oct 21 13:47:26 2019
+ 
+
+
+Decimal: 123
+Hexadecimal: 7B
+Octal: 173
+Binary: 1111011

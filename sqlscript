@@ -1,0 +1,35 @@
+insert into vg_developer values(1,"Sony","Canada","www.sony.com",123456);
+insert into vg_developer values(2,"Nintendo","USA","www.nintendo.com",113456);
+insert into vg_developer values(3,"Ubisoft","Germany","www.ubisoft.com",133456);
+insert into vg_developer values(4,"Atari","Japan","www.atari.com",143456);
+insert into vg_developer values(5,"Gameloft","India","www.gameloft.com",163456);
+
+insert into vg_genre values(1,"Action");
+insert into vg_genre values(2,"FPG");
+insert into vg_genre values(3,"Cartoon");
+insert into vg_genre values(4,"Roleplay");
+insert into vg_genre values(5,"Crime");
+
+insert into vg_platform values(1,"PSP");
+insert into vg_platform values(2,"XBOX");
+insert into vg_platform values(3,"Nintendo");
+insert into vg_platform values(4,"PC");
+insert into vg_platform values(5,"Mobile");
+
+insert into vg_publisher values(1,"Marvel","www.marvel.com");
+insert into vg_publisher values(2,"DC","www.dc.com");
+insert into vg_publisher values(3,"Motion Pictures","www.mp.com");
+insert into vg_publisher values(4,"t-Series","www.tseries.com");
+insert into vg_publisher values(5,"Infinity","www.infinity.com");
+
+insert into vg_rating values(1,"AXL","Very bad");
+insert into vg_rating values(2,"BXL","Bad");
+insert into vg_rating values(3,"CXL","Average");
+insert into vg_rating values(4,"DXL","Good");
+insert into vg_rating values(5,"EXL","Very Good");
+
+insert into vg_game values(1,"PUBG",50,"2020-01-01","1.2.a.c",1,1,1,1,1);
+insert into vg_game values(2,"Zelda",40,"2020-05-01","1.3.a.c",1,2,3,4,5);
+insert into vg_game values(3,"Minecraft",90,"2020-12-01","2.2.a.c",1,2,1,2,1);
+insert into vg_game values(4,"Lord of Rings",50,"2020-09-21","4.2.r.c",5,3,2,4,4);
+insert into vg_game values(5,"Spiderman",80,"2020-12-31","1.12.a.c",4,5,3,1,3);
